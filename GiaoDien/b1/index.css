@@ -5,9 +5,9 @@
 
 }
 .bg{
-    width: 1170px;
+    min-width: 1170px;
     background-color: white;
-
+    height: 100vh;
 }
 .a{
     display: inline-block;
@@ -16,17 +16,19 @@
     font-size: 100px;
     font-weight: 600;
     position: relative;
-    transform: translate(50%,10%);
+    top: 0%;
+	left: 45%;
+	right: 0%;
+	bottom: 0%;
+    transform: translate(-45%,15%);
 
 }
 .b{
     color: black;
     font-size: 30px;
-    /* top: 0%;
-	left: 45%;
-	right: 0%;
-	bottom: 0%; */
-    transform: translateX(37.5%) translateY(-200%);
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    transform: translateX(41.5%) translateY(-175%);
     z-index: 1;
 }
 .c{
@@ -37,7 +39,16 @@
     white-space: pre-line;
     transform: translate(0,-100%);
     
+    
 }
 .gach{
-    transform: translate(45%, -280%);
+    transform: translate(46.5%, -280%);
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border-color: brown;
+    /* font-size: 600; */
+    color: rgb(77, 76, 74);
 }
