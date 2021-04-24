@@ -1,0 +1,35 @@
+.header-showcase img {
+    max-width: 580px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .header-title {
+    /* margin-top: 20px; */
+    font-size: 40px;
+  }
+  .header-description {
+    font-size: 14px;
+  }
+  .header-showcase img {
+    max-width: 480px;
+  }
+}
+
+
+@media only screen and (max-width: 767px) {
+  .header-banner {
+    display: none;
+  }
+  .header-title {
+    font-size: 30px;
+  }
+  .header-showcase img {
+    max-width: 70%;
+  }
+
+  .header-group-btn .tcl-btn {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
