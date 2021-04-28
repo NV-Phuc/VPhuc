@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.itemb4{
+    cursor: pointer;
+    margin-top: 10%;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 15%;
+    box-shadow: 2px 2px 30px 2px rgb(2 5 24 / 50%);
+}
+.itemb4:hover{
+    color: #fff;
+    background-color: #242832;
+    border: 2px solid black;
+    box-shadow: 2px 2px 30px 2px rgb(2 5 24 / 50%);
+}
+.textb4{
+    display: block;
+    color: black;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    margin-top: 10%;
+}
+.ion-navicon{
+    display: inline-block;
+    font-size: 100px;
+    font-weight: 600;
+    width: 300%;
+    
+    margin-top: 45px;
+    margin-left: 70px;
+}

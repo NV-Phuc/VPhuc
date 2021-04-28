@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.bgb5{
+    color:#7b7b7b;
+    text-indent: 0%;
+    width: 100vh;
+    max-width: 1920px;
+    background-color: white;
+    display: inline-block;
+    height: 140vh;
+}
+.ab5{
+    display: inline-block;
+    color: rgb(243, 240, 240);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120px;
+    font-weight: 600;
+    left: 50%;
+    transform: translate(50%,15%);
+  
+}
+.bb5{
+    display: inline-block;
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    transform: translate(175%, -170%);
+    position: relative;
+}
+.gachb5{
+    position: absolute;
+    height: 2px;
+    width: 70px;
+    background-color: #323235;
+    display: inline-block;
+    left: 45%;
+    transform: translateX(50%);
+    margin-top: 10px;
+}
+.cb5{
+    display: inline-block;
+    width: 742px;
+    text-align: center;
+    white-space: pre-line;
+    left: 50%;
+    transform: translate(40%,0%);
+    
+}
+.imab5{
+    position: relative;
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 40px;
+    min-width: 1314px;
+}
+.itemb5{
+    position: absolute;
+    width: 262px;
+    height: 118px;
+    background-color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 100px;
+    font-weight: 600;
+    
+    padding-left: 20px;
+    border: 2px solid white;
+    box-shadow: 2px 2px 30px 2px rgb(2 5 24 / 50%);
+    display: inline-block;
+    left: 40%;
+    top: 35%;
+    transform: translateX(0%);
+}
+.tcl-btn {
+    position: absolute;
+    display: inline-block;
+    height: 50px;
+    min-width: 170px;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: black;
+    border-radius: 30px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 15px;
+    margin-bottom: 20px;
+    left: 37.5%;
+    transform: translateX(50%);
+    margin-top: 50px;
+
+}

@@ -173,7 +173,7 @@
 /* >= 1400px */
 @media only screen and (min-width: 1400px) {
 /* >= 1440px */
-@media only screen and (min-width: 1440px) {
+/* @media only screen and (min-width: 1440px) { */
   .tcl-col-xxxl-1 {
     width: 8.3333333%;
   }
@@ -200,5 +200,5 @@
   }
   .tcl-col-xxxl-12 {
     width: 100%;
-  }
+  /* } */
 }
