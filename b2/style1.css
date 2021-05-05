@@ -5,10 +5,11 @@
 }
 
 .backg{
-    min-width: 1170px;
+    min-width: 1344px;
+    width: 100vh;
     background-color: rgb(48, 53, 53);
     height: 120vh;
-    /* position: relative; */
+    position: relative;
 }
 .congty{
     display: inline-block;
@@ -68,10 +69,9 @@
     margin-left: 42%;
     margin-right: auto;
     margin-bottom: auto;
-    /* margin: 190px auto auto 525px; */
+    margin-top: 16.5%;
     display: inline-block;
     position: absolute;
-    /* transform: translate(300%, 300%); */
 }
 .nut1{
     border: 2px solid rebeccapurple;
@@ -85,9 +85,8 @@
     padding-top: 12px;
     font-size: 10px;
     font-weight: 600;
-    /* margin-left: 40%;
-    margin-top: 14%; */
     text-align: center;
+   
 }
 .nut2{
     background-color: rgb(255, 254, 254);
@@ -105,60 +104,46 @@
     text-align: center;
 }
 .hinh1{
-    width: 240px;
-    height: 140px;
-    background-image: url(image1/box-2.jpg);
-    background-size: 240px;
-    transform: translate(10%, 190%);
+    margin-left: 1.5%;
+    margin-top: 22.5%;
+    position: absolute;
+   
+    
 }   
 .hinh2{
-    width: 260px;
-    height: 150px;
-    background-image: url(image1/box-5.jpg);
-    background-size: 260px;
-    transform: translate(90%, 40%);
+    
+    position: absolute;
+    margin-top: 17.5%;
+    margin-left: 16%;
 }
 .hinh3{
-    width: 330px;
-    height: 207px;
-    background-image: url(image1/box-3.jpg);
-    background-size: 330px;
-    transform: translate(20%, 90%);
-    /* margin-bottom: 3000px; */
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 37.5%;
 }
 .hinh4{
-    width: 310px;
-    height: 180px;
-    background-image: url(image1/banner-right-3.png);
-    background-size: 310px;
-    transform: translate(340%, -180%);
+    position: absolute;
+    margin-left: 67.5%;
+    margin-top: 22.5%;
 
 }
 .hinh5{
-    width: 280px;
-    height: 160px;
-    background-image: url(image1/banner-right-2.png);
-    background-size: 280px;
-    transform: translate(320%, -250%);
+    position: absolute;
+    margin-left: 79.5%;
+    margin-top: 16%;
 }
 .hinh6{
-    width: 260px;
-    height: 160px;
-    background-image: url(image1/box-6.jpg);
-    background-size: 260px;
-    transform: translate(365%, -220%);
+    position: absolute;
+    margin-left: 70%;
+    margin-top: 37.5%;
 }
 .hinh7{
-    width: 180px;
-    height: 110px;
-    background-image: url(image1/banner-right-4.jpg);
-    background-size: 180px;
-    transform: translate(680%, -490%);
+    position: absolute;
+    margin-left: 92.5%;
+    margin-top: 35%;
 }
 .hinhgiua{
-    width: 480px;
-    height: 360px;
-    background-image: url(image1/banner-center.png);
-    background-size: 480px;
-    transform: translate(97.5%, -220%);
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 20%;
 }
