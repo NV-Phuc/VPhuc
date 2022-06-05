@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gachb8{
+    position: absolute;
+    height: 2px;
+    width: 70px;
+    background-color: #323235;
+    display: inline-block;
+    
+    margin-top: 12.5%;
+}

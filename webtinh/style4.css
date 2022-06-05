@@ -7,8 +7,8 @@
 .bgb5{
     color:#7b7b7b;
     text-indent: 0%;
-    width: 100vh;
-    min-width: 1344px;
+    /* width: 100vh; */
+    max-width: 1920px;
     background-color: white;
     display: inline-block;
     height: 140vh;

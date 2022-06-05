@@ -3,11 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+.tcl-row .no-gutters .tcl-col-3{
+    float: left;
+}
 .bgb4{
         color:#7b7b7b;
         text-indent: 0%;
-        width: 100vh;
-        min-width: 1344px;
+        /* width: 100vh; */
+        max-width: 1920px;
         background-color: white;
         display: inline-block;
        
@@ -20,7 +23,7 @@
         font-weight: 600;
         left: 50%;
         transform: translate(50%,15%);
-      
+        
 }
 .bb4{
         display: inline-block;
@@ -47,7 +50,6 @@
         text-align: center;
         white-space: pre-line;
         left: 0%;
-        /* transform: translate(10%,0%); */
         position: absolute;
         margin-top: 15%;
         margin-left: 22.5%;
@@ -85,8 +87,7 @@
     display: inline-block;
     font-size: 100px;
     font-weight: 600;
-    width: 300%;
-    
+    width: 250%;
     margin-top: 45px;
     margin-left: 70px;
 }
